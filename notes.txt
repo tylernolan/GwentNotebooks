@@ -1,0 +1,9 @@
+figured out why there were no diminishing returns: Decks had so many 4s that there was always one available to mulligan, and if there wasn't a 4 in hand, then the average value left in deck was so low that mulligans weren't worth taking.
+
+This is solved by adding more 5s, and we start seeing diminishing returns as expected.
+
+Mulligan value is based on how many 4s you play. As long as you have a 4 available to mulligan, you will gain value out of each additional mulligan. 
+
+Cards like Roach very significantly increase the value of the first few mulligans.
+
+Simulation takes into account the points lost by needing to mulligan Roach, instead of a 4. Which leads to the disparity between the calculated values and the simulated values.
